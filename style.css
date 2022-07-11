@@ -5,28 +5,42 @@ body {
 }
 
 .banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), #262727), url(images/donation3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), #a76207), url(images/donation3.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-
 }
 
 .banner-text {
     text-align: center;
     color: white;
+    margin-left: 50px;
 
+}
+
+.a-ancor {
+    margin-left: -90px;
+}
+
+.banner-text a {
+    background-color: brown;
+    padding: 15px 30px;
+    margin-left: 300px;
 }
 
 .banner-text h1 {
     font-size: 80px;
     font-weight: 700px;
-    padding-top: 150px;
+    padding-top: 100px;
+    padding-left: 160px;
     color: rgb(255, 255, 255);
 }
 
 .banner-text p {
     font-size: 25px;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: -50px;
 }
 
 a {
@@ -41,23 +55,16 @@ a {
 .donat-today h1 {
     text-align: center;
     font-size: 40px;
-
 }
 
 .donat-today p {
     text-align: center;
-
-
 }
 
 .flexinle-container {
-
     display: flex;
     justify-content: center;
     height: 150px;
-
-
-
 }
 
 .flexinle-container>div {
@@ -68,7 +75,6 @@ a {
     padding: 30px;
     text-align: center;
     border-radius: 5px;
-
 }
 
 .div2 {
@@ -88,7 +94,6 @@ hr {
 .donate-plan h1 {
     text-align: center;
     font-size: 40px;
-
 }
 
 .donate-plan p {
@@ -114,20 +119,16 @@ hr {
 .div8 {
     background-color: bisque;
     color: rgb(85, 85, 85);
-
 }
 
 .div7 {
     background-color: lightgoldenrodyellow;
     color: rgb(85, 85, 85);
-
 }
 
 .div6 {
     background-color: rgb(177, 179, 154);
     color: rgb(85, 85, 85);
-
-
 }
 
 button {
@@ -147,20 +148,187 @@ button {
     text-align: center;
 }
 
-.orange {
-    color: rgb(201, 98, 1);
-}
-
-section1 {
+section {
     display: flex;
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 50px;
 }
 
 .half-width img {
-    width: 80%;
+    width: 90%;
+    padding-top: 50px;
+}
+
+.half-width h1 {
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.half-width p {
+    text-align: justify;
+    margin-right: 60px;
+}
+
+section2 {
+    display: flex;
+}
+
+.half-withd1 {
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 50px;
+}
+
+.half-withd1 img {
+    width: 90%;
+}
+
+.half-withd1 p {
+    text-align: justify;
+    margin-right: 60px;
+}
+
+.half-withd1 h1 {
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.last-box {
+    background-color: rgb(224, 26, 119);
+    width: 800px;
+    height: 150px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.last-box {
+    text-align: center;
+}
+
+.butt {
+    width: 170px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    background: rgb(155, 63, 63);
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.butt2 {
+    width: 170px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    background: rgb(206, 205, 205);
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+section4 {
+    background-color: rgb(226, 225, 213);
+    margin-left: 450px;
+    padding: 60px;
+}
+
+.get1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.get2 {
+    text-align: center;
+    font-weight: 700;
+    opacity: .4;
+}
+
+footer {
+    background-color: black;
+    height: 150px;
+}
+
+.futter-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+}
+
+.last-hed h1 {
+    text-align: center;
+}
+
+.half-withd1 a {
+    background-color: brown;
+    padding: 15px 30px;
+}
+
+.half-width a {
+    background-color: brown;
+    padding: 15px 30px;
+}
+
+.donate-plan a {
+    background-color: brown;
+    padding: 15px 30px;
+    margin-left: 600px;
+}
+
+.extra-work {
+    display: flex;
+    margin: 50px;
+}
+
+.div-1 {
+    background-image: url(images/donation14.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    margin: 5px;
+}
+
+.div-2 {
+    background-image: url(images/donation4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    margin: 5px;
+}
+
+.div-3 {
+    background-image: url(images/donation12.png);
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    margin: 5px;
+}
+
+.div-4 {
+    background-image: url(images/donation9.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    margin: 5px;
+}
+
+.ex-work h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.extra-work div2 {
+    margin-top: 10px;
 }
